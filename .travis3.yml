@@ -5,7 +5,7 @@ notifications:
   slack: ibm-research:bLcRT4dofYlBUocjPBvlxO9p
   email: 
     recipients:
-    - tidhamecha@in.ibm.com
+    - patilswap33.sp.sp@gmail.com
     on_success: always
     on_failure: always
 
@@ -20,9 +20,9 @@ deploy:
 - provider: cloudfoundry
   username: apikey
   password: $apikey
-  api: https://api.ng.bluemix.net
-  organization: tidhamecha
-  space: here
+  api: https://api.eu-gb.bluemix.net
+  organization: patilswap33.sp.sp@gmail.com
+  space: dev
   manifest: manifest.yml
   on:
     branch: develop
